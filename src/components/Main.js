@@ -1,7 +1,10 @@
 import React from 'react'
+import ItemListContainer from './ItemListContainer'
 
 const Main = () => {
-  return  <div>contenido xd</div>
-}
+  return  <>
+   <ItemListContainer usuario={{nombre: 'Fan', apellido: 'Zhendong'}}/>
+   </>
 
+}
 export default Main
